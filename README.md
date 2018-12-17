@@ -1,2 +1,0 @@
-# BookWorm
-Created with CodeSandbox
