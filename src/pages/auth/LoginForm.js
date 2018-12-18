@@ -29,7 +29,7 @@ class LoginForm extends PureComponent {
 
     return (
       <Form onSubmit={this.handleSubmit} layout={"horizontal"}>
-        <h1 style={{ color: "white" }}>{data.username}X</h1>
+        <h1 style={{ color: "white" }}>{data.username}</h1>
         <Form.Item>
           {getFieldDecorator("userName", {
             rules: [{ required: true, message: "Please input your username!" }]
